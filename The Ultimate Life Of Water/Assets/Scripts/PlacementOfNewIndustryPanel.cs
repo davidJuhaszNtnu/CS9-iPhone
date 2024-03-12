@@ -187,8 +187,8 @@ public class PlacementOfNewIndustryPanel : MonoBehaviour
     }
 
     public void question_bttn(){
-        // gameController.GetComponent<gameController>().questionPlacementOfNewIndustryPanel.SetActive(true);
-        gameController.GetComponent<gameController>().questionMainPanel.SetActive(true);
+        gameController.GetComponent<gameController>().questionPlacementOfNewIndustryPanel.SetActive(true);
+        // gameController.GetComponent<gameController>().questionMainPanel.SetActive(true);
         gameController.GetComponent<gameController>().allowed_to_view_info = false;
         confirm_button.interactable = false;
         back_button.interactable = false;
@@ -196,8 +196,8 @@ public class PlacementOfNewIndustryPanel : MonoBehaviour
     }
 
     public void ok_questioPanel_bttn(){
-        // gameController.GetComponent<gameController>().questionPlacementOfNewIndustryPanel.SetActive(false);
-        gameController.GetComponent<gameController>().questionMainPanel.SetActive(false);
+        gameController.GetComponent<gameController>().questionPlacementOfNewIndustryPanel.SetActive(false);
+        // gameController.GetComponent<gameController>().questionMainPanel.SetActive(false);
         allow_to_place = true;
     }
 }

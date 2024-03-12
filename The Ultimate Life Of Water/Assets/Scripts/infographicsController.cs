@@ -55,6 +55,7 @@ public class infographicsController : MonoBehaviour
 
     public void ok_markerWarningPanel_bttn(){
         markerWarningPanel.SetActive(false);
+        appPanel.SetActive(true);
     }
 
     public void exit_bttn(){

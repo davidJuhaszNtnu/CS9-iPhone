@@ -31,8 +31,8 @@ MonoBehaviour:
       m_GuidLow: 5260516264648251427
       m_GuidHigh: 2250887383707946174
     m_SerializedTextureGuid:
-      m_GuidLow: 14166814136443500740
-      m_GuidHigh: 1328312213887580696
+      m_GuidLow: 8388890278805858915
+      m_GuidHigh: 11251052636371256458
     m_Size: {x: 0.1, y: 0.15454546}
     m_SpecifySize: 1
     m_Name: Point2
@@ -41,8 +41,8 @@ MonoBehaviour:
       m_GuidLow: 5454395861941594789
       m_GuidHigh: 17418268317006940812
     m_SerializedTextureGuid:
-      m_GuidLow: 8407376799143141194
-      m_GuidHigh: 228953397142003179
+      m_GuidLow: 14962249099351172469
+      m_GuidHigh: 2247808714326388936
     m_Size: {x: 0.1, y: 0.17072369}
     m_SpecifySize: 1
     m_Name: Food
@@ -51,8 +51,8 @@ MonoBehaviour:
       m_GuidLow: 5111833959675974480
       m_GuidHigh: 11809059962486480823
     m_SerializedTextureGuid:
-      m_GuidLow: 14136089382377835415
-      m_GuidHigh: 10053220931161165096
+      m_GuidLow: 10125381597894559362
+      m_GuidHigh: 12392475823143222952
     m_Size: {x: 0.1, y: 0.16334406}
     m_SpecifySize: 1
     m_Name: Farm
@@ -61,8 +61,8 @@ MonoBehaviour:
       m_GuidLow: 5143450906601390332
       m_GuidHigh: 131517691785574555
     m_SerializedTextureGuid:
-      m_GuidLow: 7227366309659978661
-      m_GuidHigh: 15349314417102969946
+      m_GuidLow: 4252768282613476260
+      m_GuidHigh: 4543701051863039899
     m_Size: {x: 0.1, y: 0.17361563}
     m_SpecifySize: 1
     m_Name: Refinery
@@ -71,8 +71,8 @@ MonoBehaviour:
       m_GuidLow: 5227091907238189375
       m_GuidHigh: 1832172136908791703
     m_SerializedTextureGuid:
-      m_GuidLow: 4936491351260885313
-      m_GuidHigh: 11343600616376582330
+      m_GuidLow: 17475356147457198137
+      m_GuidHigh: 12957467161429332569
     m_Size: {x: 0.1, y: 0.18054608}
     m_SpecifySize: 1
     m_Name: Utility
@@ -81,8 +81,8 @@ MonoBehaviour:
       m_GuidLow: 5517740371694514530
       m_GuidHigh: 14278441990274830976
     m_SerializedTextureGuid:
-      m_GuidLow: 15315291877804363292
-      m_GuidHigh: 3898849580204269257
+      m_GuidLow: 15273054270251000028
+      m_GuidHigh: 3227288974078905353
     m_Size: {x: 0.1, y: 0.18065575}
     m_SpecifySize: 1
     m_Name: Chemical
@@ -93,7 +93,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 4604059314955137788
       m_GuidHigh: 3137195021524492491
-    m_Size: {x: 0.1, y: 0.09742765}
+    m_Size: {x: 0.1, y: 0.09742766}
     m_SpecifySize: 1
     m_Name: City
     m_Texture: {fileID: 0}

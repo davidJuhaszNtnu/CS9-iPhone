@@ -1,4 +1,4 @@
-Library: /Users/davidju/Downloads/The Ultimate Life Of Water/Temp/StagingArea/StaticLibraries/lib_burst_generated
+Library: /Users/davidju/Documents/GitHub/CS9-iPhone/The Ultimate Life Of Water/Temp/StagingArea/StaticLibraries/lib_burst_generated
 --platform=iOS
 --backend=burst-llvm-10
 --target=ARMV8A_AARCH64
@@ -157,9 +157,9 @@ Library: /Users/davidju/Downloads/The Ultimate Life Of Water/Temp/StagingArea/St
 --compilation-defines=UNITASK_TEXTMESHPRO_SUPPORT
 --linker-options=min-ios-version=12.0
 --generate-link-xml=Temp/burst.link.xml
---temp-folder=/Users/davidju/Downloads/The Ultimate Life Of Water/Temp/Burst
+--temp-folder=/Users/davidju/Documents/GitHub/CS9-iPhone/The Ultimate Life Of Water/Temp/Burst
 --generate-static-linkage-methods
---output=/Users/davidju/Downloads/The Ultimate Life Of Water/Temp/StagingArea/StaticLibraries/lib_burst_generated
+--output=/Users/davidju/Documents/GitHub/CS9-iPhone/The Ultimate Life Of Water/Temp/StagingArea/StaticLibraries/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 --pdb-search-paths=Temp/ManagedSymbols/
 

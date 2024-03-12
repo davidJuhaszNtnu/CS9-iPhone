@@ -6,7 +6,7 @@ public class Tutorial : MonoBehaviour
 {
     public GameObject gameController, arrow_distInd_prefab, arrow_ind_prefab, distribution_industry, app, utility, tutorial;
     public GameObject welcomePanel, welcomePanel2, distributionIndustryPanel, industryPanel1, industryPanel2, howtoplayPanel, addNewButtonTutorial, placementOfNewIndustryTutorial,
-                      makeConnectionButtonTutorial, connectionPanel, connectionAnimationPanel;
+                      makeConnectionButtonTutorial, connectionPanel, congratulationsPanel;
     public GameObject arrow_distInd, arrow_ind;
 
     public bool interactable, distributionIndustry_bool, industry_bool;
@@ -27,10 +27,10 @@ public class Tutorial : MonoBehaviour
         addNewButtonTutorial.SetActive(false);
         makeConnectionButtonTutorial.SetActive(false);
         connectionPanel.SetActive(false);
-        connectionAnimationPanel.SetActive(false);
+        congratulationsPanel.SetActive(false);
         interactable = false;
         distributionIndustry_bool = true;
-        industry_bool = true;
+        industry_bool = false;
         industry_secondTime = false;
     }
 
@@ -58,6 +58,7 @@ public class Tutorial : MonoBehaviour
         arrow_ind.transform.localRotation = Quaternion.Euler(0f, 90f, 90f);
         arrow_ind.transform.localScale *= app.GetComponent<App>().scale*2f;
         interactable = true;
+        industry_bool = true;
     }
 
     public void next_industryPanel_bttn(){
@@ -94,7 +95,7 @@ public class Tutorial : MonoBehaviour
     }
 
     public void next_connectionAnimationPanel_bttn(){
-        connectionAnimationPanel.SetActive(false);
+        congratulationsPanel.SetActive(false);
 
         tutorial.SetActive(false);
         gameController.GetComponent<gameController>().tutorialOn = false;
